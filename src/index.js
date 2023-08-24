@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react'
+import Terms from './terms&conditions';
+import Disclosure from './disclosure';
+import InvesterCharter from './invester-charter';
+import Methodology from './methodology';
+import StockCompare from './srockcompare';
+import Curated from './curated';
+import Technical from './technical';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ChakraProvider>
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  
+    <Technical />
+
   </ChakraProvider>
 );
 
